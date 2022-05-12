@@ -1,0 +1,19 @@
+<testsuite failures="1" name="src/test/java/Features/getAPI.feature" skipped="0" tests="1" time="0.013374">
+  <testcase classname="src.test.java.Features.getAPI" name="Get User details" time="0.013374">
+    <failure message="-unknown-:4 - evaluation (js) failed: demoBaseUrl, javax.script.ScriptException: ReferenceError: &quot;demoBaseUrl&quot; is not defined in &lt;eval&gt; at line number 1&#10;stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)">* url demoBaseUrl ......................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:4 - evaluation (js) failed: demoBaseUrl, javax.script.ScriptException: ReferenceError: "demoBaseUrl" is not defined in &lt;eval&gt; at line number 1
+stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)
+	at ✽.* url demoBaseUrl (-unknown-:4)
+
+And param url = demoBaseUrl ............................................... skipped
+And path '30' ............................................................. skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+* print response .......................................................... skipped
+* def jsonResponse = response ............................................. skipped
+* print jsonResponse ...................................................... skipped
+* match jsonResponse.data.name == 'Dipendra Dutta' ........................ skipped</failure>
+  </testcase>
+</testsuite>

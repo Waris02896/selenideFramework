@@ -1,0 +1,161 @@
+15:40:07.180 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:00:37.399 request:
+1 > GET https://gorest.co.in/public/v1/users/30
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.15)
+
+15:00:38.756 response time in milliseconds: 1352.75
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 28 Apr 2022 10:00:38 GMT
+1 < ETag: W/"050075ab20bd9795dc70c5dcf249777b"
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: a7d45ac3-f645-4e60-8b39-01b8d5708f18
+1 < X-Runtime: 0.004033
+1 < X-XSS-Protection: 0
+{"meta":null,"data":{"id":30,"name":"Dipendra Dutta","email":"dipendra_dutta@goyette.net","gender":"male","status":"inactive"}}
+
+15:00:38.785 [print] {
+  "data": {
+    "gender": "male",
+    "name": "Dipendra Dutta",
+    "id": 30,
+    "email": "dipendra_dutta@goyette.net",
+    "status": "inactive"
+  },
+  "meta": null
+}
+
+15:00:38.786 [print] {
+  "data": {
+    "gender": "male",
+    "name": "Dipendra Dutta",
+    "id": 30,
+    "email": "dipendra_dutta@goyette.net",
+    "status": "inactive"
+  },
+  "meta": null
+}
+
+15:00:38.796 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:00:38.798 request:
+1 > GET https://gorest.co.in/public/v1/users/30
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.15)
+
+15:00:39.851 response time in milliseconds: 1050.30
+1 < 200
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 28 Apr 2022 10:00:39 GMT
+1 < ETag: W/"050075ab20bd9795dc70c5dcf249777b"
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 26615f5d-ce66-405f-ab38-b48dedf16db3
+1 < X-Runtime: 0.004645
+1 < X-XSS-Protection: 0
+{"meta":null,"data":{"id":30,"name":"Dipendra Dutta","email":"dipendra_dutta@goyette.net","gender":"male","status":"inactive"}}
+
+15:00:39.855 [print] {
+  "data": {
+    "gender": "male",
+    "name": "Dipendra Dutta",
+    "id": 30,
+    "email": "dipendra_dutta@goyette.net",
+    "status": "inactive"
+  },
+  "meta": null
+}
+
+15:00:39.857 [print] {
+  "data": {
+    "gender": "male",
+    "name": "Dipendra Dutta",
+    "id": 30,
+    "email": "dipendra_dutta@goyette.net",
+    "status": "inactive"
+  },
+  "meta": null
+}
+
+15:00:39.882 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+15:00:39.888 request:
+1 > GET https://gorest.co.in/public/v1/users/100000
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: gorest.co.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.15)
+
+15:00:40.886 response time in milliseconds: 995.02
+1 < 404
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 28 Apr 2022 10:00:40 GMT
+1 < Referrer-Policy: strict-origin-when-cross-origin
+1 < Server: nginx
+1 < Strict-Transport-Security: max-age=63072000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: [Accept-Encoding, Origin]
+1 < X-Content-Type-Options: nosniff
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-Request-Id: 9cab93cf-ee44-4761-b6c0-1779469355e4
+1 < X-Runtime: 0.004466
+1 < X-XSS-Protection: 0
+{"meta":null,"data":{"message":"Resource not found"}}
+
+15:00:40.888 [print] {
+  "data": {
+    "message": "Resource not found"
+  },
+  "meta": null
+}
+
+15:00:40.889 [print] {
+  "data": {
+    "message": "Resource not found"
+  },
+  "meta": null
+}
+
+not found"
+  },
+  "meta": null
+}
+
+14:29:28.737 [print] {
+  "data": {
+    "message": "Resource not found"
+  },
+  "meta": null
+}
+
+ource not found"
+  },
+  "meta": null
+}
+

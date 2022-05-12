@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>src.test.java.Features.getAPI</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">0</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">1</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2022-04-28 03:40:07 PM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item failed">
+                        <a href="#[1:5]">[1:5] Get User details </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/Features/getAPI.feature</span><span class="feature-description">Get API Features</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:5]">
+                        <div class="heading-container">
+                            <div class="scenario-tags"></div>
+                            <span class="scenario-keyword">Scenario: [1:5]</span><span class="scenario-name">Get User details </span>
+                        </div>
+                        <div class="scenario-time failed">ms: 13</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="[1:5]bg">
+                            <div class="step-ref bg-step">&gt;&gt;</div>
+                            <div class="step-cell passed">Background:</div>
+                        </div>
+                        <div class="time-cell passed"></div>
+                    </div>
+                    <div class="step-row" data-parent="[1:5]bg">
+                        <div class="step-container" id="1">
+                            <div class="step-ref bg-step">1</div>
+                            <div class="step-cell failed">* url demoBaseUrl</div>
+                        </div>
+                        <div class="time-cell failed">13</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">15:40:07.180 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+-unknown-:4 - evaluation (js) failed: demoBaseUrl, javax.script.ScriptException: ReferenceError: "demoBaseUrl" is not defined in &lt;eval&gt; at line number 1
+stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)</div>
+                    <div class="step-row">
+                        <div class="step-container">
+                            <div class="step-ref skipped"></div>
+                            <div class="step-cell comment">#    Given url = demoBaseUrl</div>
+                        </div>
+                        <div class="time-cell comment"></div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref skipped">2</div>
+                            <div class="step-cell skipped">And param url = demoBaseUrl</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref skipped">3</div>
+                            <div class="step-cell skipped">And path '30'</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref skipped">4</div>
+                            <div class="step-cell skipped">When method GET</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref skipped">5</div>
+                            <div class="step-cell skipped">Then status 200</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref skipped">6</div>
+                            <div class="step-cell skipped">* print response</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref skipped">7</div>
+                            <div class="step-cell skipped">* def jsonResponse = response</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref skipped">8</div>
+                            <div class="step-cell skipped">* print jsonResponse</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref skipped">9</div>
+                            <div class="step-cell skipped">* match jsonResponse.data.name == 'Dipendra Dutta'</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

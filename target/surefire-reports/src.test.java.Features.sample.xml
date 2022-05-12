@@ -1,0 +1,21 @@
+<testsuite failures="0" name="src/test/java/Features/sample.feature" skipped="0" tests="3" time="0.034931">
+  <testcase classname="src.test.java.Features.sample" name="Hello World scenario" time="0">
+    <system-out/>
+  </testcase>
+  <testcase classname="src.test.java.Features.sample" name="declare and print variables" time="0.021872">
+    <system-out>* def balance = 200 ....................................................... passed
+* def fee = 20 ............................................................ passed
+* def tax = 10 ............................................................ passed
+* print 'total amount -&gt; ' + balance + fee + tax .......................... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.Features.sample" name="declare and print variables" time="0.013059">
+    <system-out>* def balance = 200 ....................................................... passed
+* def fee = 20 ............................................................ passed
+* def tax = 10 ............................................................ passed
+* print 'total amount -&gt; ' + balance + fee + tax .......................... passed
+* def balance = 200 ....................................................... passed
+* def fee = 20 ............................................................ passed
+* def tax = 10 ............................................................ passed
+* print 'total amount -&gt; ' + (balance + fee + tax) ........................ passed</system-out>
+  </testcase>
+</testsuite>
